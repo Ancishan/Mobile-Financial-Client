@@ -131,7 +131,7 @@ const Registration = () => {
                 type="submit"
                 className="bg-black w-full rounded-md py-3 text-white"
               >
-                Submit
+                Registration
               </button>
             </div>
           </form>

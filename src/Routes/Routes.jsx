@@ -1,12 +1,17 @@
 import { createBrowserRouter } from 'react-router-dom';
 import Registration from '../Pages/Authentication/Registration';
 import Login from '../Pages/Authentication/Login';
+import HomePage from '../Pages/HomePage/HomePage';
 
 
 export const router = createBrowserRouter([
   {
     path: '/',
     children: [
+      {
+        path:'/',
+        element:<HomePage></HomePage>
+      },
       {
         path: '/reg',
         element: <Registration />,
